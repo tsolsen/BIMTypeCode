@@ -303,7 +303,12 @@
 			<Name_en>Foundations</Name_en>
 			<Name_se>Fundament</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABe>15</BSABe>
 			</RelatedClassifications>
@@ -484,7 +489,12 @@
 			<Name_en>Floor beds</Name_en>
 			<Name_se>Platta, byggnad</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -520,12 +530,10 @@
 			<Name_se>Byggbasis byggnad, övriga</Name_se>
 			<Sort>2</Sort>
 			<RelatedObjects>
-				<IFC4_Entity>IfcBuildingElementProxy</IFC4_Entity>
-				<IFC4_EntityType>IfcBuildingElementProxyType</IFC4_EntityType>
-				<IFC4_EnumerationType>USERDEFINED</IFC4_EnumerationType>
-				<IFC2X3_Entity>IfcBuildingElementProxy</IFC2X3_Entity>
-				<IFC2X3_EntityType>IfcBuildingElementProxyType</IFC2X3_EntityType>
-				<IFC2X3_EnumerationType>USERDEFINED</IFC2X3_EnumerationType>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
 			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
@@ -585,7 +593,12 @@
 			<Name_se>Primära byggdelar</Name_se>
 			<Sort>1</Sort>
 			<ReferencedSource>BIM Typecode</ReferencedSource>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcElement</IFC4_Entity>
+				<IFC4_EntityType>IfcElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -597,7 +610,12 @@
 			<Sort>2</Sort>
 			<ReferencedSource>2</ReferencedSource>
 			<HasReferences>201, 202, 203, 204, 205</HasReferences>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -661,7 +679,13 @@
 			<Description_dk>-</Description_dk>
 			<Sort>3</Sort>
 			<ReferencedSource>20</ReferencedSource>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcElementAssembly</IFC4_Entity>
+				<IFC4_EntityType>IfcElementAssemblyType</IFC4_EntityType>
+				<IFC4_EnumerationType>ACCESSORY_ASSEMBLY</IFC4_EnumerationType>
+				<IFC2X3_Entity>IfcElementAssembly</IFC2X3_Entity>
+				<IFC2X3_EnumerationType>ACCESSORY_ASSEMBLY</IFC2X3_EnumerationType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABe>32.5</BSABe>
 				<CCSClassification>[B]EBC</CCSClassification>
@@ -679,7 +703,13 @@
 			<Description_dk>Fx færdige viadukt elementer</Description_dk>
 			<Sort>3</Sort>
 			<ReferencedSource>20</ReferencedSource>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcElementAssembly</IFC4_Entity>
+				<IFC4_EntityType>IfcElementAssemblyType</IFC4_EntityType>
+				<IFC4_EnumerationType>ACCESSORY_ASSEMBLY</IFC4_EnumerationType>
+				<IFC2X3_Entity>IfcElementAssembly</IFC2X3_Entity>
+				<IFC2X3_EnumerationType>ACCESSORY_ASSEMBLY</IFC2X3_EnumerationType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABe>21.B</BSABe>
 				<BSABwr>EBA</BSABwr>
@@ -716,7 +746,12 @@
 			<Sort>2</Sort>
 			<ReferencedSource>2</ReferencedSource>
 			<HasReferences>211, 212, 213, 214, 215, 216, 217, 248</HasReferences>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABe>27.C</BSABe>
 			</RelatedClassifications>
@@ -931,7 +966,12 @@
 			<Sort>2</Sort>
 			<ReferencedSource>2</ReferencedSource>
 			<HasReferences>221, 222, 223, 224, 225, 226</HasReferences>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABe>27.B</BSABe>
 			</RelatedClassifications>
@@ -1097,7 +1137,12 @@
 			<Sort>2</Sort>
 			<ReferencedSource>2</ReferencedSource>
 			<HasReferences>231, 232, 233, 234, 239</HasReferences>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABe>27.F</BSABe>
 			</RelatedClassifications>
@@ -1236,7 +1281,12 @@
 			<Sort>2</Sort>
 			<ReferencedSource>2</ReferencedSource>
 			<HasReferences>241, 242, 243, 244, 245, 246, 247</HasReferences>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -1428,7 +1478,12 @@
 			<Sort>2</Sort>
 			<ReferencedSource>2</ReferencedSource>
 			<HasReferences>251, 252, 253, 254, 255, 256, 257, 259</HasReferences>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -1647,7 +1702,12 @@
 			<Sort>2</Sort>
 			<ReferencedSource>2</ReferencedSource>
 			<HasReferences>261, 262, 263</HasReferences>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -1731,7 +1791,12 @@
 			<Sort>2</Sort>
 			<ReferencedSource>2</ReferencedSource>
 			<HasReferences>271, 272, 273, 274, 275, 276, 279</HasReferences>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -1900,11 +1965,10 @@
 			<Sort>2</Sort>
 			<ReferencedSource>2</ReferencedSource>
 			<RelatedObjects>
-				<IFC4_Entity>IfcBuildingElementProxy</IFC4_Entity>
-				<IFC4_EntityType>IfcBuildingElementProxyType</IFC4_EntityType>
-				<IFC4_EnumerationType>USERDEFINED</IFC4_EnumerationType>
-				<IFC2X3_Entity>IfcBuildingElementProxy</IFC2X3_Entity>
-				<IFC2X3_EntityType>IfcBuildingElementProxyType</IFC2X3_EntityType>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
 			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
@@ -1915,7 +1979,12 @@
 			<Name_en>Complementary Building Elements</Name_en>
 			<Name_se>Kompletterande byggdelar</Name_se>
 			<Sort>1</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -1925,7 +1994,12 @@
 			<Name_en>Terrain</Name_en>
 			<Name_se>Terräng</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -1995,7 +2069,12 @@
 			<Name_en>External walls</Name_en>
 			<Name_se>Yttervägg</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABe>42.D</BSABe>
 			</RelatedClassifications>
@@ -2172,7 +2251,12 @@
 			<Name_en>Interior walls</Name_en>
 			<Name_se>Innervägg</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABe>43.C</BSABe>
 			</RelatedClassifications>
@@ -2369,7 +2453,12 @@
 			<Name_en>Slabs</Name_en>
 			<Name_se>Bjälklag</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABe>43.D</BSABe>
 			</RelatedClassifications>
@@ -2547,7 +2636,12 @@
 			<Name_en>Stairs and ramps</Name_en>
 			<Name_se>Trappor och ramper</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -2639,7 +2733,12 @@
 			<Name_en>Ceilings</Name_en>
 			<Name_se>Undertak</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABe>43.E</BSABe>
 			</RelatedClassifications>
@@ -2655,8 +2754,10 @@
 			<RelatedObjects>
 				<IFC4_Entity>IfcCovering</IFC4_Entity>
 				<IFC4_EntityType>IfcCoveringType</IFC4_EntityType>
+				<IFC4_EnumerationType>CEILING</IFC4_EnumerationType>
 				<IFC2X3_Entity>IfcCovering</IFC2X3_Entity>
 				<IFC2X3_EntityType>IfcCoveringType</IFC2X3_EntityType>
+				<IFC2X3_EnumerationType>CEILING</IFC2X3_EnumerationType>
 			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABe>43.E/40</BSABe>
@@ -2677,8 +2778,10 @@
 			<RelatedObjects>
 				<IFC4_Entity>IfcCovering</IFC4_Entity>
 				<IFC4_EntityType>IfcCoveringType</IFC4_EntityType>
+				<IFC4_EnumerationType>CEILING</IFC4_EnumerationType>
 				<IFC2X3_Entity>IfcCovering</IFC2X3_Entity>
 				<IFC2X3_EntityType>IfcCoveringType</IFC2X3_EntityType>
+				<IFC2X3_EnumerationType>CEILING</IFC2X3_EnumerationType>
 			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]BG</CCSClassification>
@@ -2698,8 +2801,10 @@
 			<RelatedObjects>
 				<IFC4_Entity>IfcCovering</IFC4_Entity>
 				<IFC4_EntityType>IfcCoveringType</IFC4_EntityType>
+				<IFC4_EnumerationType>CEILING</IFC4_EnumerationType>
 				<IFC2X3_Entity>IfcCovering</IFC2X3_Entity>
 				<IFC2X3_EntityType>IfcCoveringType</IFC2X3_EntityType>
+				<IFC2X3_EnumerationType>CEILING</IFC2X3_EnumerationType>
 			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABe>43.E/40</BSABe>
@@ -2720,8 +2825,10 @@
 			<RelatedObjects>
 				<IFC4_Entity>IfcCovering</IFC4_Entity>
 				<IFC4_EntityType>IfcCoveringType</IFC4_EntityType>
+				<IFC4_EnumerationType>CEILING</IFC4_EnumerationType>
 				<IFC2X3_Entity>IfcCovering</IFC2X3_Entity>
 				<IFC2X3_EntityType>IfcCoveringType</IFC2X3_EntityType>
+				<IFC2X3_EnumerationType>CEILING</IFC2X3_EnumerationType>
 			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]BG</CCSClassification>
@@ -2741,8 +2848,10 @@
 			<RelatedObjects>
 				<IFC4_Entity>IfcCovering</IFC4_Entity>
 				<IFC4_EntityType>IfcCoveringType</IFC4_EntityType>
+				<IFC4_EnumerationType>CEILING</IFC4_EnumerationType>
 				<IFC2X3_Entity>IfcCovering</IFC2X3_Entity>
 				<IFC2X3_EntityType>IfcCoveringType</IFC2X3_EntityType>
+				<IFC2X3_EnumerationType>CEILING</IFC2X3_EnumerationType>
 			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]BG</CCSClassification>
@@ -2762,8 +2871,10 @@
 			<RelatedObjects>
 				<IFC4_Entity>IfcCovering</IFC4_Entity>
 				<IFC4_EntityType>IfcCoveringType</IFC4_EntityType>
+				<IFC4_EnumerationType>CEILING</IFC4_EnumerationType>
 				<IFC2X3_Entity>IfcCovering</IFC2X3_Entity>
 				<IFC2X3_EntityType>IfcCoveringType</IFC2X3_EntityType>
+				<IFC2X3_EnumerationType>CEILING</IFC2X3_EnumerationType>
 			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]BG</CCSClassification>
@@ -2783,8 +2894,10 @@
 			<RelatedObjects>
 				<IFC4_Entity>IfcCovering</IFC4_Entity>
 				<IFC4_EntityType>IfcCoveringType</IFC4_EntityType>
+				<IFC4_EnumerationType>CEILING</IFC4_EnumerationType>
 				<IFC2X3_Entity>IfcCovering</IFC2X3_Entity>
 				<IFC2X3_EntityType>IfcCoveringType</IFC2X3_EntityType>
+				<IFC2X3_EnumerationType>CEILING</IFC2X3_EnumerationType>
 			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]RQC</CCSClassification>
@@ -2800,7 +2913,12 @@
 			<Name_en>Balconies</Name_en>
 			<Name_se>Balkonger</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABe>43.BB</BSABe>
 			</RelatedClassifications>
@@ -2833,7 +2951,12 @@
 			<Name_en>Roof</Name_en>
 			<Name_se>Tak</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABe>41.F</BSABe>
 			</RelatedClassifications>
@@ -2998,7 +3121,12 @@
 			<Name_en>Other secondary building elements</Name_en>
 			<Name_se>Kompletterande byggdelar, övrigt</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -3018,7 +3146,12 @@
 			<Name_en>Exterior walls</Name_en>
 			<Name_se>Utvändiga väggar</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -3091,7 +3224,12 @@
 			<Name_en>Interior walls</Name_en>
 			<Name_se>Invändiga väggar</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -3175,7 +3313,12 @@
 			<Name_en>Suspended floors</Name_en>
 			<Name_se>Bjälklag och golv</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -3259,7 +3402,12 @@
 			<Name_en>Stairs and ramps</Name_en>
 			<Name_se>Trappor och ramper</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -3332,7 +3480,12 @@
 			<Name_en>Ceiling, finishes</Name_en>
 			<Name_se>Undertak</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -3415,7 +3568,12 @@
 			<Name_en>Balconies</Name_en>
 			<Name_se>Balkonger</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -3483,7 +3641,12 @@
 			<Name_en>Roofs</Name_en>
 			<Name_se>Tak</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcBuildingElement</IFC4_Entity>
+				<IFC4_EntityType>IfcBuildingElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcBuildingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcBuildingElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
@@ -3858,6 +4021,7 @@
 			<RelatedObjects>
 				<IFC4_Entity>IfcInterceptor</IFC4_Entity>
 				<IFC4_EntityType>IfcInterceptorType</IFC4_EntityType>
+				<IFC4_EnumerationType>OIL</IFC4_EnumerationType>
 				<IFC2X3_Entity>IfcFlowTreatmentDevice</IFC2X3_Entity>
 				<IFC2X3_EntityType>IfcFlowTreatmentDeviceType</IFC2X3_EntityType>
 			</RelatedObjects>
@@ -3876,6 +4040,7 @@
 			<RelatedObjects>
 				<IFC4_Entity>IfcInterceptor</IFC4_Entity>
 				<IFC4_EntityType>IfcInterceptorType</IFC4_EntityType>
+				<IFC4_EnumerationType>GREASE</IFC4_EnumerationType>
 				<IFC2X3_Entity>IfcFlowTreatmentDevice</IFC2X3_Entity>
 				<IFC2X3_EntityType>IfcFlowTreatmentDeviceType</IFC2X3_EntityType>
 			</RelatedObjects>
@@ -3894,6 +4059,7 @@
 			<RelatedObjects>
 				<IFC4_Entity>IfcInterceptor</IFC4_Entity>
 				<IFC4_EntityType>IfcInterceptorType</IFC4_EntityType>
+				<IFC4_EnumerationType>USERDEFINED</IFC4_EnumerationType>
 				<IFC2X3_Entity>IfcFlowTreatmentDevice</IFC2X3_Entity>
 				<IFC2X3_EntityType>IfcFlowTreatmentDeviceType</IFC2X3_EntityType>
 			</RelatedObjects>
@@ -4031,7 +4197,12 @@
 			<Name_en>Accessories</Name_en>
 			<Name_se>Tillbehör</Name_se>
 			<Sort>3</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcDistributionFlowElement</IFC4_Entity>
+				<IFC4_EntityType>IfcDistributionFlowElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcDistributionFlowElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcDistributionFlowElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]XLA</CCSClassification>
 				<Forvaltningklassifikation>tt</Forvaltningklassifikation>
@@ -4044,7 +4215,14 @@
 			<Name_de>Regenwasserversickerungsanlagen</Name_de>
 			<Name_se>Dagvattenkassetter</Name_se>
 			<Sort>4</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcInterceptor</IFC4_Entity>
+				<IFC4_EntityType>IfcInterceptorType</IFC4_EntityType>
+				<IFC4_EnumerationType>USERDEFINED</IFC4_EnumerationType>
+				<IFC2X3_Entity>IfcFlowTreatmentDevice</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcFlowTreatmentDevice</IFC2X3_EntityType>
+				<IFC2X3_EnumerationType>USERDEFINED</IFC2X3_EnumerationType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]WMA</CCSClassification>
 			</RelatedClassifications>
@@ -4055,7 +4233,13 @@
 			<Name_de>Rückschlagarmaturen</Name_de>
 			<Name_se>Backventil för avlopp</Name_se>
 			<Sort>4</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcValve</IFC4_Entity>
+				<IFC4_EntityType>IfcValveType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcFlowController</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcValveType</IFC2X3_EntityType>
+				<IFC2X3_EnumerationType>USERDEFINED</IFC2X3_EnumerationType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]QMA</CCSClassification>
 			</RelatedClassifications>
@@ -4066,7 +4250,14 @@
 			<Name_de>Hydranten</Name_de>
 			<Name_se>Brandpost</Name_se>
 			<Sort>4</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcFireSuppressionTerminal</IFC4_Entity>
+				<IFC4_EntityType>IfcFireSuppressionTerminalType</IFC4_EntityType>
+				<IFC4_EnumerationType>FIREHYDRANT</IFC4_EnumerationType>
+				<IFC2X3_Entity>IfcFlowTerminal</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcFlowTerminalType</IFC2X3_EntityType>
+				<IFC2X3_EnumerationType>USERDEFINED</IFC2X3_EnumerationType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABwr>PVD.1</BSABwr>
 				<CCSClassification>[L]XLA</CCSClassification>
@@ -4078,7 +4269,12 @@
 			<Name_de>Tanks</Name_de>
 			<Name_se>Behållare</Name_se>
 			<Sort>4</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcTank</IFC4_Entity>
+				<IFC4_EntityType>IfcTankType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcFlowStorageDevice</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcTankType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABwr>PL</BSABwr>
 				<CCSClassification>[L]CMA</CCSClassification>
@@ -4202,7 +4398,12 @@
 			<Name_de>Ablauftrichter</Name_de>
 			<Name_se>Droppkoppar</Name_se>
 			<Sort>4</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcSanitaryTerminal</IFC4_Entity>
+				<IFC4_EntityType>IfcSanitaryTerminalType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcFlowTerminal</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcSanitaryTerminalType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]XLF</CCSClassification>
 			</RelatedClassifications>
@@ -4213,7 +4414,14 @@
 			<Name_de>Vacuumventile</Name_de>
 			<Name_se>Vakuumventiler</Name_se>
 			<Sort>4</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcValve</IFC4_Entity>
+				<IFC4_EntityType>IfcValveType</IFC4_EntityType>
+				<IFC4_EnumerationType>AIRRELEASE</IFC4_EnumerationType>
+				<IFC2X3_Entity>IfcFlowController</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcValveType</IFC2X3_EntityType>
+				<IFC2X3_EnumerationType>AIRRELEASE</IFC2X3_EnumerationType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABwr>PSG.25</BSABwr>
 				<CCSClassification>[L]XLG</CCSClassification>
@@ -4228,8 +4436,10 @@
 			<RelatedObjects>
 				<IFC4_Entity>IfcWasteTerminal</IFC4_Entity>
 				<IFC4_EntityType>IfcWasteTerminalType</IFC4_EntityType>
+				<IFC4_EnumerationType>ROOFDRAIN</IFC4_EnumerationType>
 				<IFC2X3_Entity>IfcFlowTerminal</IFC2X3_Entity>
 				<IFC2X3_EntityType>IfcWasteTerminalType</IFC2X3_EntityType>
+				<IFC2X3_EnumerationType>ROOFDRAIN</IFC2X3_EnumerationType>
 			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABwr>JT-</BSABwr>
@@ -4242,7 +4452,14 @@
 			<Name_de>Strangentlüftungen</Name_de>
 			<Name_se>Luftningsledningar (avlopp)</Name_se>
 			<Sort>4</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcValve</IFC4_Entity>
+				<IFC4_EntityType>IfcValveType</IFC4_EntityType>
+				<IFC4_EnumerationType>AIRRELEASE</IFC4_EnumerationType>
+				<IFC2X3_Entity>IfcFlowController</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcValveType</IFC2X3_EntityType>
+				<IFC2X3_EnumerationType>AIRRELEASE</IFC2X3_EnumerationType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]XLG</CCSClassification>
 			</RelatedClassifications>
@@ -5982,11 +6199,11 @@
 			<Name_se>Kanaltillbehör</Name_se>
 			<Sort>3</Sort>
 			<RelatedObjects>
-                <IFC4_Entity>IfcDistributionFlowElement</IFC4_Entity>
-                <IFC4_EntityType>IfcDistributionFlowElementType</IFC4_EntityType>
-                <IFC2X3_Entity>IfcDistributionFlowElement</IFC2X3_Entity>
-                <IFC2X3_EntityType>IfcDistributionFlowElementType</IFC2X3_EntityType>
-            </RelatedObjects>
+				<IFC4_Entity>IfcDistributionFlowElement</IFC4_Entity>
+				<IFC4_EntityType>IfcDistributionFlowElementType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcDistributionFlowElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcDistributionFlowElementType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]</CCSClassification>
 				<Forvaltningklassifikation>bt.ven.kan</Forvaltningklassifikation>
@@ -6000,11 +6217,11 @@
 			<Name_se>Ljuddämpare</Name_se>
 			<Sort>4</Sort>
 			<RelatedObjects>
-                <IFC4_Entity>IfcDuctSilencer</IFC4_Entity>
-                <IFC4_EntityType>IfcDuctSilencerType</IFC4_EntityType>
-                <IFC2X3_Entity>IfcFlowTreatmentDevice</IFC2X3_Entity>
-                <IFC2X3_EntityType>IfcDuctSilencerType</IFC2X3_EntityType>
-            </RelatedObjects>
+				<IFC4_Entity>IfcDuctSilencer</IFC4_Entity>
+				<IFC4_EntityType>IfcDuctSilencerType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcFlowTreatmentDevice</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcDuctSilencerType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]RQC</CCSClassification>
 			</RelatedClassifications>
@@ -6016,15 +6233,15 @@
 			<Name_se>Brand-/Brandgasspjäll</Name_se>
 			<Sort>4</Sort>
 			<RelatedObjects>
-                <IFC4_Entity>IfcDamper</IFC4_Entity>
-                <IFC4_EntityType>IfcDamperType</IFC4_EntityType>
-                <IFC4_EnumerationType>FIRESMOKEDAMPER</IFC4_EnumerationType>
+				<IFC4_Entity>IfcDamper</IFC4_Entity>
+				<IFC4_EntityType>IfcDamperType</IFC4_EntityType>
+				<IFC4_EnumerationType>FIRESMOKEDAMPER</IFC4_EnumerationType>
 				<IFC4_Properties>Pset_DamperTypeFireSmokeDamper</IFC4_Properties>
-                <IFC2X3_Entity>IfcFlowController</IFC2X3_Entity>
-                <IFC2X3_EntityType>IfcDamperType</IFC2X3_EntityType>
-                <IFC2X3_EnumerationType>FIRESMOKEDAMPER</IFC2X3_EnumerationType>
+				<IFC2X3_Entity>IfcFlowController</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcDamperType</IFC2X3_EntityType>
+				<IFC2X3_EnumerationType>FIRESMOKEDAMPER</IFC2X3_EnumerationType>
 				<IFC2X3_Properties>Pset_DamperTypeFireSmokeDamper</IFC2X3_Properties>
-            </RelatedObjects>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]FMB</CCSClassification>
 			</RelatedClassifications>
@@ -6036,15 +6253,15 @@
 			<Name_se>Brand-/Brandgasspjäll</Name_se>
 			<Sort>4</Sort>
 			<RelatedObjects>
-                <IFC4_Entity>IfcDamper</IFC4_Entity>
-                <IFC4_EntityType>IfcDamperType</IFC4_EntityType>
-                <IFC4_EnumerationType>FIRESMOKEDAMPER</IFC4_EnumerationType>
+				<IFC4_Entity>IfcDamper</IFC4_Entity>
+				<IFC4_EntityType>IfcDamperType</IFC4_EntityType>
+				<IFC4_EnumerationType>FIRESMOKEDAMPER</IFC4_EnumerationType>
 				<IFC4_Properties>Pset_DamperTypeFireSmokeDamper</IFC4_Properties>
-                <IFC2X3_Entity>IfcFlowController</IFC2X3_Entity>
-                <IFC2X3_EntityType>IfcDamperType</IFC2X3_EntityType>
-                <IFC2X3_EnumerationType>FIRESMOKEDAMPER</IFC2X3_EnumerationType>
+				<IFC2X3_Entity>IfcFlowController</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcDamperType</IFC2X3_EntityType>
+				<IFC2X3_EnumerationType>FIRESMOKEDAMPER</IFC2X3_EnumerationType>
 				<IFC2X3_Properties>Pset_DamperTypeFireSmokeDamper</IFC2X3_Properties>
-            </RelatedObjects>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]FMB</CCSClassification>
 			</RelatedClassifications>
@@ -6056,11 +6273,11 @@
 			<Name_se>Övertrycksspjäll</Name_se>
 			<Sort>4</Sort>
 			<RelatedObjects>
-                <IFC4_Entity>IfcDamper</IFC4_Entity>
-                <IFC4_EntityType>IfcDamperType</IFC4_EntityType>
-                <IFC2X3_Entity>IfcFlowController</IFC2X3_Entity>
-                <IFC2X3_EntityType>IfcDamperType</IFC2X3_EntityType>
-            </RelatedObjects>
+				<IFC4_Entity>IfcDamper</IFC4_Entity>
+				<IFC4_EntityType>IfcDamperType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcFlowController</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcDamperType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]FLB</CCSClassification>
 			</RelatedClassifications>
@@ -6072,14 +6289,15 @@
 			<Name_se>Brandgasspjäll</Name_se>
 			<Sort>4</Sort>
 			<RelatedObjects>
-                <IFC4_Entity>IfcDamper</IFC4_Entity>
-                <IFC4_EntityType>IfcDamperType</IFC4_EntityType>
-                <IFC4_EnumerationType>SMOKEDAMPER</IFC4_EnumerationType>
+				<IFC4_Entity>IfcDamper</IFC4_Entity>
+				<IFC4_EntityType>IfcDamperType</IFC4_EntityType>
+				<IFC4_EnumerationType>SMOKEDAMPER</IFC4_EnumerationType>
 				<IFC4_Properties>Pset_DamperTypeSmokeDamper</IFC4_Properties>
-                <IFC2X3_Entity>IfcFlowController</IFC2X3_Entity>
-                <IFC2X3_EntityType>IfcDamperType</IFC2X3_EntityType>
-                <IFC2X3_EnumerationType>SMOKEDAMPER</IFC2X3_EnumerationType>
+				<IFC2X3_Entity>IfcFlowController</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcDamperType</IFC2X3_EntityType>
+				<IFC2X3_EnumerationType>SMOKEDAMPER</IFC2X3_EnumerationType>
 				<IFC2X3_Properties>Pset_DamperTypeSmokeDamper</IFC2X3_Properties>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]FMB</CCSClassification>
 			</RelatedClassifications>
@@ -6091,11 +6309,11 @@
 			<Name_se>Spjäll med tvålägesmotor</Name_se>
 			<Sort>4</Sort>
 			<RelatedObjects>
-                <IFC4_Entity>IfcDamper</IFC4_Entity>
-                <IFC4_EntityType>IfcDamperType</IFC4_EntityType>
-                <IFC2X3_Entity>IfcFlowController</IFC2X3_Entity>
-                <IFC2X3_EntityType>IfcDamperType</IFC2X3_EntityType>
-			<RelatedClassifications>
+				<IFC4_Entity>IfcDamper</IFC4_Entity>
+				<IFC4_EntityType>IfcDamperType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcFlowController</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcDamperType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]QMB</CCSClassification>
 			</RelatedClassifications>
@@ -10455,7 +10673,12 @@
 			<Name_en>Terrain</Name_en>
 			<Name_se>Utrustning, terräng</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcFurniture</IFC4_Entity>
+				<IFC4_EntityType>IfcFurnitureType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcFurnishingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcFurnitureType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<BSABe>32</BSABe>
 			</RelatedClassifications>
@@ -10468,7 +10691,12 @@
 			<Name_se>Teknisk utrustning</Name_se>
 			<Description_dk>Fx mekaniske pullerter</Description_dk>
 			<Sort>3</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcFurniture</IFC4_Entity>
+				<IFC4_EntityType>IfcFurnitureType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcFurnishingElement</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcFurnitureType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications>
 				<CCSClassification>[L]RB</CCSClassification>
 				<CoClass>RB</CoClass>
@@ -11030,7 +11258,12 @@
 			<Name_en>Fixtures, technical, IT and audio-visual</Name_en>
 			<Name_se>Utrustning, teknisk-, IT- och AV-utrustning</Name_se>
 			<Sort>2</Sort>
-			<RelatedObjects/>
+			<RelatedObjects>
+				<IFC4_Entity>IfcFlowTerminal</IFC4_Entity>
+				<IFC4_EntityType>IfcFlowTerminalType</IFC4_EntityType>
+				<IFC2X3_Entity>IfcFlowTerminal</IFC2X3_Entity>
+				<IFC2X3_EntityType>IfcFlowTerminalType</IFC2X3_EntityType>
+			</RelatedObjects>
 			<RelatedClassifications/>
 		</Item>
 		<Item>
